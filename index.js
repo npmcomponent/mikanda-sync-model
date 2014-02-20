@@ -2,13 +2,13 @@
  * Module dependencies.
  */
 
-var object = require('object'),
-    each = require('each'),
-    value = require('value'),
-    query = require('query'),
-    attr = require('attr'),
-    type = require('type'),
-    bind = require('bind');
+var object = require('component-object'),
+    each = require('component-each'),
+    value = require('component-value'),
+    query = require('component-query'),
+    attr = require('matthewp-attr'),
+    type = require('component-type'),
+    bind = require('component-bind');
 
 /**
  * Module exports.

@@ -1,9 +1,20 @@
 {
-  "name": "sync-model",
-  "private": true,
-  "devDependencies": {
-    "express": "~3.3.1",
-    "jade": "~0.32.0",
-    "component-builder": "~0.8.3"
-  }
+  "name": "mikanda-sync-model",
+  "description": "Takes a model and updates its values using form fields",
+  "version": "1.1.0",
+  "keywords": [
+    "sync",
+    "model"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "component-object": "git://github.com/npmcomponent/component-object.git",
+    "component-each": "git://github.com/npmcomponent/component-each.git",
+    "component-value": "git://github.com/npmcomponent/component-value.git",
+    "component-query": "git://github.com/npmcomponent/component-query.git",
+    "component-type": "git://github.com/npmcomponent/component-type.git",
+    "matthewp-attr": "git://github.com/npmcomponent/matthewp-attr.git",
+    "component-bind": "git://github.com/npmcomponent/component-bind.git"
+  },
+  "license": "MIT"
 }
